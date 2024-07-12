@@ -1,0 +1,54 @@
+{
+    "moveIDs":[
+        {
+            "id":"fierce_bark",
+            "name":"Fierce Bark",
+            "uses":8,
+            "damage":0,
+            "effect":"stat_lowered_defense",
+            "chance":1,
+            "potency":2,
+            "target":2
+        },
+        {
+            "id":"bite",
+            "name":"Bite",
+            "uses":21,
+            "damage":6,
+            "effect":"flinch",
+            "chance":0.1,
+            "potency":1,
+            "target":2
+        },
+        {
+            "id":"grip_jaw",
+            "name":"Grip Jaw",
+            "uses":8,
+            "damage":10,
+            "effect":"trap",
+            "chance":1,
+            "potency":3,
+            "target":2
+        },
+        {
+            "id":"scratch",
+            "name":"Scratch",
+            "uses":32,
+            "damage":5,
+            "effect":"none",
+            "chance":0,
+            "potency":1,
+            "target":2
+        },
+        {
+            "id":"escape",
+            "name":"Escape",
+            "uses":4,
+            "damage":5,
+            "effect":"phase",
+            "chance":1,
+            "potency":2,
+            "target":1
+        }
+    ]
+}

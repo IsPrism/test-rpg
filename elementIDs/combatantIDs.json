@@ -1,0 +1,24 @@
+{
+    "combatantIDs":[
+        {
+            "id":"dog",
+            "name":"Dog",
+            "maxHealth":24,
+            "damageMultiplier":0.9,
+            "defenseMultiplier":1.2,
+            "resistanceMultiplier":1.5,
+            "magDefenseMultiplier":1.0,
+            "magicMultiplier":0.4,
+            "baseMovepool":[
+                "fierce_bark",
+                "bite",
+                "grip_jaw",
+                "scratch",
+                "escape"
+            ]
+        },
+        {
+
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "effectIds":[
+        {
+            "id":"stat_lowered_defense",
+            "name":"Defense Drop"
+        },
+        {
+            "id":"flinch",
+            "name":"Flinch"
+        },
+        {
+            "id":"trap",
+            "name":"Trap"
+        },
+        {
+            "id":"phase",
+            "name":"Intangible"
+        }
+    ]
+}
