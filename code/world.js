@@ -1,5 +1,6 @@
 const combatantIDs = fetch("elementIDs/combatantIDs.json")
-console.log(combatantIDs)
+    .then((response)=>response.json())
+    .then(console.log(response))
 
 const playerContainer = document.getElementById("CID1");
 const enemyContainer = document.getElementById("CID2");
@@ -11,7 +12,7 @@ class Combatant {
         this.icon = document.createElement("p")
         this.element.appendChild(this.icon);
         this.team = team
-        this.icon.innerText = "";
+        this.icon.innerText = "🐶";
     };
 };
 class CustomCombatant {
