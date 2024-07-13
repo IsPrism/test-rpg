@@ -17,3 +17,4 @@ class CustomCombatant {
     };
 };
 
+var player1 = new Combatant(1, "dog", 1)
