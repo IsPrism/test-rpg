@@ -1,7 +1,3 @@
-const combatantIDs = fetch("elementIDs/combatantIDs.json")
-    .then((response)=>response.json())
-    .then(console.log(response))
-
 const playerContainer = document.getElementById("CID1");
 const enemyContainer = document.getElementById("CID2");
 
@@ -20,3 +16,4 @@ class CustomCombatant {
 
     };
 };
+
